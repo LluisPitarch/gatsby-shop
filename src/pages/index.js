@@ -26,6 +26,7 @@ export const query = graphql`
               description
               img
               wear
+              color
             }
             name
           }

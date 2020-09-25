@@ -18,7 +18,12 @@ const Product = ({ products }) => {
               />
               <p>{product.node.product.name}</p>
               <p>{price}</p>
-              <Link to={product.node.product.id}>Compar 💸</Link>
+              <Link to={product.node.product.id}>
+                Compar{" "}
+                <span aria-label="money" role="img">
+                  💸
+                </span>
+              </Link>
             </article>
           )
         })}
